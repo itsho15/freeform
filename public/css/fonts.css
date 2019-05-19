@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'bahijLight';
+	src: url('../fonts/Bahij_TheSansArabic-Light.ttf');
+	src: url('../fonts/Bahij_TheSansArabic-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: fallback;
+}
+@font-face {
+	font-family: 'bahijBold';
+	src: url('../fonts/Bahij_TheSansArabic-Bold.ttf');
+	src: url('../fonts/Bahij_TheSansArabic-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: fallback;
+}
+@font-face {
+	font-family: 'bahijPlain';
+	src: url('../fonts/Bahij_TheSansArabic-Plain.ttf');
+	src: url('../fonts/Bahij_TheSansArabic-Plain.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: fallback;
+}
+@font-face {
+	font-family: 'bahijSemiBold';
+	src: url('../fonts/Bahij_TheSansArabic-SemiBold.ttf');
+	src: url('../fonts/Bahij_TheSansArabic-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: fallback;
+}
+@font-face {
+	font-family: 'tahoma';
+	src: url('../fonts/tahoma_0.ttf');
+	src: url('../fonts/tahoma_0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: fallback;
+}
+

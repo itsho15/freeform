@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html class="no-js" dir="rtl" lang="ar">
+
+<head>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <meta name="author" content="Hadeer Magdy">
+    <meta name="description" content="NumScroller - jQuery plugin for number increment rolling animation when it becomes visibile while scrolling">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة الرئيسية</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/ficon/logo.png" />
+    <!--        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">  -->
+ 
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+      <link href="css/bootstrap-rtl.min.css" rel="stylesheet">
+<!--         <link href="css/style-en.css" rel="stylesheet" type="text/css" /> -->
+    <link href="css/mobile.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div id="loading">
+        <div class="loading"></div>
+    </div>
+
+    <!---------- Start Header ---------->
+    <header>
+        <div class="container">
+            <div class="col-md-4 col-sm-5 col-xs-7">
+                <a href="index.html" class="logo">
+                    <img src="images/logo/logo.png" alt="" />
+                </a>
+            </div>
+            <div class="col-md-8 col-sm-7 col-xs-5">
+                <!---------- Start Nav ---------->
+                <nav class="navbar navbar-inverse moved">
+                    <div class="col-md-8 col-sm-5 col-xs-5">
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav margin">
+                                <li class="current-menu-item "><a href="index.html"><i class="fa fa-home"></i> الرئيسية</a></li>
+                                <li><a href="#">من نحن</a></li>
+                                <li><a href="#">الاشتراكات</a></li>
+                                <li><a href="#">الوجبات</a></li>
+                            </ul>
+                        </div>
+                        <!---------- Start SideBar ---------->
+                        <div class="none">
+                            <div id="page-content-wrapper">
+                                <button type="button" class="hamburger is-closed" data-toggle="offcanvas"><i class="fa fa-bars"></i></button>
+                            </div>
+                            <div id="wrapper">
+                                <div class="overlay" data-toggle="offcanvas"></div>
+                                <!-- Sidebar -->
+                                <nav class="navbar navbar-inverse navbar-fixed-top none" id="sidebar-wrapper" role="navigation">
+                                    <div class="sidebar-social">
+                                        <a href="#">
+                                            <img src="images/logo/logo.png" alt="">
+                                        </a>
+                                    </div>
+                                    <ul class="nav sidebar-nav">
+                                        <li class="current-menu-item "><a href="index.html"><i class="fa fa-home"></i> الرئيسية</a></li>
+                                        <li><a href="#">من نحن</a></li>
+                                        <li><a href="#">الاشتراكات</a></li>
+                                        <li><a href="#">الوجبات</a></li>
+                                        <li><a href="#" class="btn" data-toggle="modal" data-target="#spec-meal">وجبة مميزة</a></li>
+                                    </ul>
+                                    
+                                </nav>
+                            </div>
+                        </div>
+                        <!---------- End SideBar ---------->
+                    </div>
+                    <div class="col-md-4 col-sm-7 col-xs-7">
+                        <div class="nav navbar-nav navbar-left">
+                            <a href="#" class="btn" data-toggle="modal" data-target="#spec-meal">وجبة مميزة</a>
+                            <a href="#" class="lang">EN <i class="fa fa-globe"></i></a>
+                            <!--                            <button class="search"><i class="fa fa-search"></i></button>-->
+                        </div>
+                    </div>
+                </nav>
+                <!---------- End Nav ---------->
+            </div>
+        </div>
+    </header>
+    <!---------- End Header ---------->
+<div class="about-inner col-xs-12">
+                <div class="container">
+                    <div class="g-body col-md-12 col-xs-12">
+                        <div class="ab-ex col-xs-12">
+                            <div class="ex-img col-md-6 col-xs-12">
+                                <div class="i-img" style="background-image: url(images/hero.jpg)"></div>
+                            </div>
+                            <div class="ex-data col-md-6 col-xs-12">
+                                <h3>من نحن</h3>
+                                <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع  القارئ عن التركيز على الشكل الخارجي للنص .</p>
+                                <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع  القارئ عن التركيز على الشكل الخارجي للنص .</p>
+                            </div>
+                        </div>
+                        <div class="ab-top col-xs-12">
+                            <div class="block col-md-6 col-xs-12">
+                            <h3>رؤيتنا</h3>
+                            <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل القارئ عن التركيز على الشكل الخارجي للنص .
+ أو شكل توضع الفقرات في الصفحة التي يقرأها هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها .</p>
+                           
+                        </div>
+                        
+                        <div class="block col-md-6 col-xs-12">
+                            <h3>أهدافنا</h3>
+                            <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل القارئ عن التركيز على الشكل الخارجي للنص .
+ أو شكل توضع الفقرات في الصفحة التي يقرأها هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها .</p>
+                        </div>
+                        </div>
+                        <div class="ab-bottom col-xs-12">
+                            <div class="g-head col-xs-12">
+                                <h3>تاريخنا</h3>
+                                <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها ، هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز .</p>
+                            </div>
+                            <div class="g-body col-xs-12">
+                                <div class="body-icon col-xs-12">
+                                    <div class="icon" style="background-image: url(images/cal.png)"></div>
+                                </div>
+                                <div class="body-items col-xs-12">
+                                    <div class="item col-xs-12">
+                                        <div class="date-i">2018</div>
+                                        <div class="hist-body">
+                                            <div class="i-inner">
+                                                <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها ، هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها هناك حقيقة مثبتة منذ زمن طويل .
+المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</p>
+                                            <span>01</span>
+                                            </div>
+                                             <div class="i-inner">
+                                                <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها ، هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها هناك حقيقة مثبتة منذ زمن طويل .
+المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</p>
+                                            <span>02</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="item col-xs-12">
+                                        <div class="date-i">2017</div>
+                                        <div class="hist-body">
+                                            <div class="i-inner">
+                                                <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها ، هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها هناك حقيقة مثبتة منذ زمن طويل .
+المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</p>
+                                            <span>01</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="item col-xs-12">
+                                        <div class="date-i">2016</div>
+                                        <div class="hist-body">
+                                            <div class="i-inner">
+                                                <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها ، هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها هناك حقيقة مثبتة منذ زمن طويل .
+المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</p>
+                                            <span>01</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <section class="newsletter" style="background-image: url(images/hero.jpg)">
+        <div class="container">
+            <div class="n-data">
+                <h3>هل انت جاهز الأن للتجربة ؟</h3>
+                <p>جرب الأن المعادلة الصعبة !</p>
+            </div>
+            <div class="n-extra">
+                <a href="#" class="btn-style">إشتراك</a>
+            </div>
+        </div>
+    </section>
+    <!---------- Start Footer ---------->
+    <footer class="topf">
+        <p id="top"><a class="top"></a></p>
+        <div class="container">
+            <div class="col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".3s">
+                <h1>رو ابط تهمك</h1>
+                <form action="">
+                    <input type="email" placeholder="البريد الإلكتروني" />
+                    <i class="fa fa-envelope"></i>
+                    <input type="submit" value="&#xf060;" />
+                </form>
+                <ul class="social-media-f">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".5s">
+                <h1>رو ابط تهمك</h1>
+                <ul class="links">
+                    <li><a href="">عن الشركة</a></li>
+                    <li><a href="">الأخبار</a></li>
+                    <li><a href="">مشاريعنا</a></li>
+                    <li><a href="">خدماتنا</a></li>
+                    <li><a href="">عملائنا</a></li>
+                    <li><a href="">أتصل بنا</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1.1s" data-wow-delay=".7s">
+                <h1>تواصل معنا</h1>
+                <ul>
+                    <li><i class="fa fa-phone"></i> (+965) 567891234</li>
+                    <li><i class="fa fa-envelope"></i> info@lolo.com</li>
+                    <li><i class="fa fa-map-marker"></i> ص ب 45153 الرياض 12345</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <footer class="bottomf">
+        <div class="container">
+            <div class="col-md-6 col-sm-12 col-xs-12 ">
+                <p>&copy; جميع الحقوق محفوظة لدي <a href="#">فري فروم</a> 2019</p>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="ryad-logo">
+                    <a href="http://elryad.com" title="تصميم مواقع">
+                        <svg height="90" width="102">
+                            <line x1="0" y1="0" x2="90" y2="0" style="stroke:rgb(255,255,255);stroke-width:35" />
+                            <line x1="100" y1="0" x2="0" y2="10" style="stroke:rgb(255,255,255);stroke-width:20; transform:rotate(40deg)" />
+                            <line x1="10" y1="95" x2="50" y2="45" style="stroke:rgb(255,255,255);stroke-width:20;" />
+                        </svg>
+                        <div class="lolo-co">
+                            <p>elryad</p>
+                            <span>تصميم مواقع / تطبيقات</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---------- End Footer ---------->
+    <div class="modal fade" id="spec-meal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+        <h4 class="modal-title">ابدأ بتكوين وجبة مميزة!</h4>
+      </div>
+      <div class="modal-body">
+        <form action="#" method="get" class="req-meal">
+            <div class="form-group">
+                <h5>مكونات وجبتك</h5>
+                <textarea class="form-control" placeholder="اكتب مكونات الوجبة"></textarea>
+            </div>
+            <div class="form-group">
+                <h5>ارفق صور للوجبة المرادة</h5>
+<div class="input-group">
+                                    <label class="input-group-btn">
+                                        <span class="btn">
+                                            <i class="fa fa-cloud-upload"></i>
+                                            <input type="file" style="display: none;" multiple="">
+                                        </span>
+                                    </label>
+                                    <input type="text" class="form-control" readonly="" placeholder="No file Selected">
+                                </div>            </div>
+            <div class="form-group">
+                <button type="submit" class="btn">اطلب</button>
+            </div>
+          </form>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/responsiveCarousel.min.js"></script>
+    <script src="js/nprogress.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/java.js"></script>
+    <script>
+        $(window).load(function() {
+            $('.loader').fadeOut(2000);
+        });
+        NProgress.start();
+        window.onload = function() {
+            NProgress.done();
+        }
+    </script>
+</body>
+
+</html>
